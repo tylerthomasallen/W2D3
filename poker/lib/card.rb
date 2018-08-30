@@ -7,4 +7,8 @@ class Card
     @value, @suit = value, suit
   end
   
+  def inspect
+    "Suit:#{suit} value:#{value}"
+  end
+  
 end
